@@ -5,10 +5,8 @@ This will be a simple but powerful API, to propose a movie to watch each week, t
 the top rated ones (on TMDB) and of course the one currently playing (in France)
 
 TODO:
-    - set up eslint
-    - set up redis
-    - post selection endpoint
-    - L3C selection endpoint (from the list of currently playing)
+    - add logging system with signal
     - history of selection (redis storage?)
-    - redirect/link to messenger bot
+    - L3C selection endpoint (from the list of currently playing)
     - refactor
+    - redirect/link to messenger bot (will mostly never happen since fb is blocking the bot publication)

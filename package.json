@@ -6,6 +6,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.3",
+    "luxon": "^1.2.1",
+    "redis": "^2.8.0",
     "superstruct": "^0.5.4"
   },
   "devDependencies": {

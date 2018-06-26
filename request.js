@@ -15,21 +15,14 @@ exports.requestMovieApi = (endpoint) => {
         },
     }
 
-    console.log('---- before calling tmdb')
-    console.log('--- options', options)
-
     return axios(options)
         .then(response => {
-            console.log('---- response', response.data)
-
             return { type: 'SUCCESS', data: response.data }
         })
         .catch(err => {
-            //console.log('----- err', err)
-
             return {
                 type: 'ERROR',
-                data: `Sorry an error occurred ! :/ we'll dive into it ! ${err.message}`
+                data: `Sorry an error occurred ! We'll dive into it ! ${err.message}`
             }
         })
 }
